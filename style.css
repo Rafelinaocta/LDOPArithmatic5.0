@@ -1,0 +1,68 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.judul {
+    color: rgb(236, 141, 197);
+}
+
+.bordered-text{
+    border: 2px solid #000;
+    padding: 10px;
+   }
+
+.gambar {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.deskripsi {
+    font-size: 20px;
+}
+
+.panel {
+    color: gray;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+td {
+    padding: 5px;
+}
+
+h2 {
+    color: rgb(109, 142, 250);
+}
+
+ol {
+    list-style: upper-roman;
+    text-align: left;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a::before {
+    content: " - ";
+}
+
+a::after {
+    content: " - ";
+}
+
+a:hover {
+    color: red;
+    font-size: 20px;
+    transition-duration: 1s;
+}
